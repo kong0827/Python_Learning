@@ -1,5 +1,5 @@
 # 导入文件，不能以数字开头
-from com.kxj._03_function import my_abs, nop, my_abs2, move, enroll
+from Python_Base.com.kxj._03_function import my_abs, nop, my_abs2, move, enroll
 import math
 
 print(my_abs(10))
