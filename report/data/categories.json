@@ -1,0 +1,115 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 4 == 5\n  +4\n  -5",
+      "children" : [ {
+        "name" : "test_answer",
+        "uid" : "12e26fd06a70fc1",
+        "parentUid" : "3e3c3d33a207e58b01323bca43f2fb11",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617267832119,
+          "stop" : 1617267832120,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e3c3d33a207e58b01323bca43f2fb11"
+    }, {
+      "name" : "AssertionError: assert 1 == 0\n  +1\n  -0",
+      "children" : [ {
+        "name" : "test_two",
+        "uid" : "b989a688a50d7c68",
+        "parentUid" : "c0a776b5fa3eec3868aa5e8e96941f56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617267832176,
+          "stop" : 1617267832176,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c0a776b5fa3eec3868aa5e8e96941f56"
+    }, {
+      "name" : "AssertionError: 不相等\nassert 1 == 2\n  +1\n  -2",
+      "children" : [ {
+        "name" : "test_function",
+        "uid" : "ea242a98efe71c05",
+        "parentUid" : "2f4cf1f56e74c3365445a48ba8f95947",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617267832184,
+          "stop" : 1617267832185,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f4cf1f56e74c3365445a48ba8f95947"
+    }, {
+      "name" : "AssertionError: assert {'0', '2'} == {'0', '1', '2'}\n  Extra items in the right set:\n  '1'\n  Full diff:\n  - {'2', '1', '0'}\n  ?       -----\n  + {'2', '0'}",
+      "children" : [ {
+        "name" : "test_set_comparison",
+        "uid" : "c9ba2f75b4b4c63d",
+        "parentUid" : "6f0e415fb166e7352fb93c6e1ed8ccf0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617267832201,
+          "stop" : 1617267832203,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f0e415fb166e7352fb93c6e1ed8ccf0"
+    }, {
+      "name" : "AssertionError: assert <Python_Pytes...0024256C0DA90> == <Python_Pytes...0024256C0D588>\n  +<Python_Pytest.com.kxj.case.test_04_fooCompare.Foo object at 0x0000024256C0DA90>\n  -<Python_Pytest.com.kxj.case.test_04_fooCompare.Foo object at 0x0000024256C0D588>",
+      "children" : [ {
+        "name" : "test_compare",
+        "uid" : "3d95102490c416d5",
+        "parentUid" : "d3fc4bf71c346d8c2c44c13da83976cb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617267832208,
+          "stop" : 1617267832208,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3fc4bf71c346d8c2c44c13da83976cb"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=9064): Max retries exceeded with url: /after-sales-order/handler/verify-close/count (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024256D18240>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "children" : [ {
+        "name" : "test_find",
+        "uid" : "80f51c875d3eb51e",
+        "parentUid" : "86a5a38e7d0f6f80bde308981cde9583",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617267832549,
+          "stop" : 1617267836563,
+          "duration" : 4014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86a5a38e7d0f6f80bde308981cde9583"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
