@@ -11,7 +11,7 @@ def getssh():
 
 def test_getssh(monkeypatch):
     def mockreturn():
-        return Path("abc")
+        return Path("/abc/.ssh")
 
     # 模拟Path中的home方法替代原有
     monkeypatch.setattr(Path, "home", mockreturn)

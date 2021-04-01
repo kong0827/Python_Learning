@@ -13,4 +13,5 @@ if __name__ == '__main__':
     # pytest.main(["-sv", "com/kxj/test_02_simple.py"])
 
     # 运行某个测试类下的方法
-    pytest.main(["-sv", "com/kxj/test_02_simple.py::TestClassDemo::test_one"])
+    # pytest.main(["-sv", "com/kxj/test_02_simple.py::TestClassDemo::test_one"])
+    pytest.main(["-sv"])
