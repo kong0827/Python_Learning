@@ -1,0 +1,87 @@
+{
+  "uid" : "ca5f796de0691c31",
+  "name" : "test_find_all",
+  "fullName" : "com.kxj.db.test_01_mongo#test_find_all",
+  "historyId" : "7bca9d404ee7b8c8ba4f45cec204e895",
+  "time" : {
+    "start" : 1617330625912,
+    "stop" : 1617330625975,
+    "duration" : 63
+  },
+  "description" : "\n    查询集合中所有的数据\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>查询集合中所有的数据\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1617330625546,
+      "stop" : 1617330625546,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n    查询集合中所有的数据\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8cb94fb34fb79585",
+      "name" : "stdout",
+      "source" : "8cb94fb34fb79585.txt",
+      "type" : "text/plain",
+      "size" : 3
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "com.kxj.db"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_mongo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4IJL66C"
+  }, {
+    "name" : "thread",
+    "value" : "3396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "com.kxj.db.test_01_mongo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca5f796de0691c31.json",
+  "parameterValues" : [ ]
+}

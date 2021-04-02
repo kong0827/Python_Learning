@@ -1,0 +1,74 @@
+{
+  "uid" : "dd94a61975f70b8",
+  "name" : "test_answer",
+  "fullName" : "com.kxj.case.test_01_simple#test_answer",
+  "historyId" : "fd71fd0e5463913ef33bc72728f267c2",
+  "time" : {
+    "start" : 1617330625576,
+    "stop" : 1617330625576,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 5\n  +4\n  -5",
+  "statusTrace" : "def test_answer():\n>       assert func(3) == 5\nE       assert 4 == 5\nE         +4\nE         -5\n\nPython_Pytest\\com\\kxj\\case\\test_01_simple.py:8: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1617330625546,
+      "stop" : 1617330625546,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "com.kxj.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_simple"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4IJL66C"
+  }, {
+    "name" : "thread",
+    "value" : "3396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "com.kxj.case.test_01_simple"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dd94a61975f70b8.json",
+  "parameterValues" : [ ]
+}

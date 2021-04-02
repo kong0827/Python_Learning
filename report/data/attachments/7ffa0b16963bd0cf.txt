@@ -1,4 +1,0 @@
-[32mINFO    [0m Python_Pytest.com.kxj.log.test_logging:test_logging.py:9 info级别
-[1m[31mERROR   [0m Python_Pytest.com.kxj.log.test_logging:test_logging.py:10 error级别
-[35mDEBUG   [0m Python_Pytest.com.kxj.log.test_logging:test_logging.py:11 debug级别
-[33mWARNING [0m Python_Pytest.com.kxj.log.test_logging:test_logging.py:12 warning级别

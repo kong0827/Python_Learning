@@ -1,0 +1,128 @@
+{
+  "uid" : "5aace1c3e74c7473",
+  "name" : "test_order",
+  "fullName" : "com.kxj.case.test_10_fixtures#test_order",
+  "historyId" : "84d480e680ea42bf2fa6a55a523c1f89",
+  "time" : {
+    "start" : 1617330625714,
+    "stop" : 1617330625715,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "append_second",
+    "time" : {
+      "start" : 1617330625714,
+      "stop" : 1617330625714,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "append_third",
+    "time" : {
+      "start" : 1617330625714,
+      "stop" : 1617330625714,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "append_first",
+    "time" : {
+      "start" : 1617330625714,
+      "stop" : 1617330625714,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "order",
+    "time" : {
+      "start" : 1617330625714,
+      "stop" : 1617330625714,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "env",
+    "time" : {
+      "start" : 1617330625546,
+      "stop" : 1617330625546,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "com.kxj.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_10_fixtures"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4IJL66C"
+  }, {
+    "name" : "thread",
+    "value" : "3396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "com.kxj.case.test_10_fixtures"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5aace1c3e74c7473.json",
+  "parameterValues" : [ ]
+}

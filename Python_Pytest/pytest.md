@@ -122,3 +122,17 @@
 ### `conftest.py` 
 
 跨多个文件共享装置
+
+
+pytest.ini
+```
+;[pytest]
+;addopts = -s  --html=./report.html
+;# 测试路径
+;testpaths = ./Test
+;# 测试文件名
+;python_files = test_*.py
+;# 测试类名
+;python_classes = Test_*
+;# 测试的方法名
+;python_functions = test_*

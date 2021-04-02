@@ -1,0 +1,93 @@
+{
+  "uid" : "5ff10b37561e5653",
+  "name" : "test_get_weather",
+  "fullName" : "com.kxj.request.test_02_weather#test_get_weather",
+  "historyId" : "ede428e70ea9a820ff334b42935e8fa3",
+  "time" : {
+    "start" : 1617330630150,
+    "stop" : 1617330630569,
+    "duration" : 419
+  },
+  "description" : "\n    调用天气预报接口\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>调用天气预报接口\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1617330625546,
+      "stop" : 1617330625546,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n    调用天气预报接口\n    :return:\n    ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6b599cc58f3574d4",
+      "name" : "log",
+      "source" : "6b599cc58f3574d4.txt",
+      "type" : "text/plain",
+      "size" : 307
+    }, {
+      "uid" : "75c4a9f55da74333",
+      "name" : "stdout",
+      "source" : "75c4a9f55da74333.txt",
+      "type" : "text/plain",
+      "size" : 5687
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "com.kxj.request"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_weather"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4IJL66C"
+  }, {
+    "name" : "thread",
+    "value" : "3396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "com.kxj.request.test_02_weather"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ff10b37561e5653.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,8 @@
+
+开始执行class
+
+开始执行function
+
+---用例b执行---
+
+结束function
