@@ -1,0 +1,63 @@
+{
+    "aftersales":{
+        "type":"3",
+        "repair_type":0,
+        "user_id":"4860",
+        "system_order_no":"R120101636261001",
+        "contact":"RuiguTest",
+        "emergency_contact_name":"22",
+        "emergency_contact_mobile":"13901695450",
+        "contact_mobile":"17803896949",
+        "contact_address":"上海市杨浦区殷行路1286号嘉誉国际广场2栋1001室",
+        "contact_province_code":"31",
+        "contact_region_code":"310100",
+        "contact_city_code":"310110",
+        "repair_allow_pay":1,
+        "created":"2020-11-20 16:24:51",
+        "is_check":"0",
+        "source":3,
+        "modified":"2020-11-20 16:24:51",
+        "is_free":1,
+        "dealer_id":"1584",
+        "dealer_id_org":"1510",
+        "is_pick_up":0,
+        "is_pick_down":0,
+        "aftersales_no":"AS202011200130027",
+        "aftersales_id":"277986",
+        "location_id":"13798",
+        "admin_id":"295",
+        "smi_id":""
+    },
+    "shop":{
+        "aftersales_no":"AS202011200130027",
+        "product_id":"64",
+        "imgs":"582802,582801",
+        "description":"测试",
+        "count":"1",
+        "count_min":1,
+        "count_org":"1",
+        "count_min_org":1,
+        "created":"2020-11-20 16:24:51",
+        "modified":"2020-11-20 16:24:51",
+        "aftersales_reason":"18",
+        "unit_name":"台",
+        "weight":"60",
+        "volume":"127764",
+        "product_name":"台钻轻型/220V/370W",
+        "product_picture":"http://static.ruigushop.com/mainimages1/242091197/M0120170905192618291347.png",
+        "product_sku":"242091197",
+        "supplier_name":"浙江西菱股份有限公司",
+        "supplier_id":"9",
+        "os_order_delivery_type":"1"
+    },
+    "goods_param":[
+        {
+            "aftersales_no":"AS202011200130027",
+            "aftersales_shop_id":"276995",
+            "uuid":"U20201120000023",
+            "created":"2020-11-20 16:24:51",
+            "modified":"2020-11-20 16:24:51"
+        }
+    ],
+    "upimgid_arr":"582802,582801"
+}
